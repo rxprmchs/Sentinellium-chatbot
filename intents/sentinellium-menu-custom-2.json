@@ -1,0 +1,190 @@
+{
+  "id": "acbd8bd7-1030-44c2-8c30-b53ed6bdaab9",
+  "parentId": "b2720a4a-82e2-40c4-a8a2-b6fc2c14dc8e",
+  "rootParentId": "b2720a4a-82e2-40c4-a8a2-b6fc2c14dc8e",
+  "name": "sentinellium-menu-custom-2",
+  "auto": true,
+  "contexts": [
+    "sentinellium-menu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sentinellium-menu.sentinellium-menu-custom-2",
+      "affectedContexts": [
+        {
+          "name": "sentinellium-menu",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "71509dba-8867-48ab-91e4-b529f2e5985a",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "first-name",
+          "value": "$first-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your first name/given name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "04f67d5a-5dcc-49a7-9c64-1b81ffeaec4a",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "last-name",
+          "value": "$last-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your family name/last name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "f7356be9-19bb-4eff-846b-bd45acf6bca0",
+          "required": true,
+          "dataType": "@sys.age",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How old are you?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "f1136f61-ecea-4c38-9a1c-881262b89cbd",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where do you currently live?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d8856321-d97b-459b-9cad-dc2442821655",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "symptoms",
+          "value": "$symptoms",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Have you experienced fever/cold? Shortness of breath? Cough or runny nose lately?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e94f6c6e-729e-49d1-9f72-4b898c283bff",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "travel",
+          "value": "$travel",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did you travel out of the country this past few months?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "34949c97-909d-46c1-b3f8-6b8e0437a17b",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "exposure",
+          "value": "$exposure",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Have you made contact with known patients?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Stay safe and take care!",
+          "replies": [
+            "Back to Menu"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Thank you for answering the questions $first-name! This will also help aid health authorities!",
+            "Please wait while we process your data."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "RISK PROFILE: Low"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

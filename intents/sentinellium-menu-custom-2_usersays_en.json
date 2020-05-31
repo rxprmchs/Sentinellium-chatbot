@@ -1,0 +1,268 @@
+[
+  {
+    "id": "1bcaf054-3624-4bec-aa58-1cf4e6007d3f",
+    "data": [
+      {
+        "text": "Send my Data",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe66cef4-7f42-44e6-8bdd-bccc5a7b7428",
+    "data": [
+      {
+        "text": "I have not",
+        "alias": "exposure",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "128f10bc-fd59-4700-85cb-5c94284f7be9",
+    "data": [
+      {
+        "text": "I don\u0027t think so",
+        "alias": "exposure",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dada2b7c-1ead-4079-b1b6-c3b1d4534c4a",
+    "data": [
+      {
+        "text": "I don\u0027t know",
+        "alias": "exposure",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b024d5e1-3e85-4ae2-8ac6-7b856c23c099",
+    "data": [
+      {
+        "text": "Yes",
+        "alias": "travel",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " I have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f049db34-f406-417e-9ec8-bc879a31b1bc",
+    "data": [
+      {
+        "text": "No",
+        "alias": "travel",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " I did not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b81393dc-fd30-4eef-8afe-4d0015b26596",
+    "data": [
+      {
+        "text": "No",
+        "alias": "symptoms",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "359c4804-3299-45e3-84df-75fcd6664fb2",
+    "data": [
+      {
+        "text": "Yes",
+        "alias": "symptoms",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "348c075b-a1f2-4688-b6bd-5d5d0637964f",
+    "data": [
+      {
+        "text": "123 XYZ street, Mandaluyong",
+        "alias": "address",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4385b32e-aaf9-4a8c-94a2-811078910390",
+    "data": [
+      {
+        "text": "I currently live at 268 T Bernardo st.",
+        "alias": "address",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d304e53c-9e02-455a-ae3e-1ae25b69cf31",
+    "data": [
+      {
+        "text": "21",
+        "alias": "age",
+        "meta": "@sys.age",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a96c92b9-cdbb-40bd-b2d8-2ded4606fea7",
+    "data": [
+      {
+        "text": "last name",
+        "alias": "last-name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7dd040c9-abd1-45ca-a916-797c6c73fa5e",
+    "data": [
+      {
+        "text": "My last name is Cornes",
+        "alias": "last-name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cd2c1340-6573-44f6-bf2e-25892d85d59a",
+    "data": [
+      {
+        "text": "Cornes",
+        "alias": "last-name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ab59ba41-d2f1-43f4-b0da-f37c86264e11",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "21",
+        "alias": "age",
+        "meta": "@sys.age",
+        "userDefined": true
+      },
+      {
+        "text": " years old",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2aabe91-ea10-406f-9c86-7d64c08c95bf",
+    "data": [
+      {
+        "text": "My first name is Rex",
+        "alias": "first-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc4d44eb-8e8c-40ba-99fc-4b73eb6d16e7",
+    "data": [
+      {
+        "text": "James Andrew",
+        "alias": "first-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ca7d17cb-a56c-46a4-9fde-47b0209697ef",
+    "data": [
+      {
+        "text": "James",
+        "alias": "first-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

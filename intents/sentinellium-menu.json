@@ -1,0 +1,114 @@
+{
+  "id": "b2720a4a-82e2-40c4-a8a2-b6fc2c14dc8e",
+  "name": "sentinellium-menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sentinellium-menu",
+      "affectedContexts": [
+        {
+          "name": "sentinellium-menu-custom",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "sentinellium-menu-custom-2",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "sentinellium-send-data",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "sentinellium-menu-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "What is Sentinellium?",
+          "subtitle": "Sentinellium in a nutshell",
+          "buttons": [
+            {
+              "text": "Know more!"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Send my Information",
+          "subtitle": "Submit your information which will be processed by our system!",
+          "buttons": [
+            {
+              "text": "Send my Data"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Get Status",
+          "subtitle": "Check if you\u0027re current status based from your given data!",
+          "buttons": [
+            {
+              "text": "Get Status"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Latest Covid-19 Count",
+          "subtitle": "It is very important to be aware of what\u0027s happening to our world. Get Latest updates from health authorities now!",
+          "buttons": [
+            {
+              "text": "Get Update"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "How may I help you?",
+            "What would you like to do?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "sentinellium-menu"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

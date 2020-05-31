@@ -1,0 +1,54 @@
+{
+  "id": "ffe06297-d1ae-48dd-b9a9-df6a9372f84e",
+  "name": "sentinellium-inquiry",
+  "auto": true,
+  "contexts": [
+    "sentinellium-menu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sentinellium-inquiry",
+      "affectedContexts": [
+        {
+          "name": "sentinellium-menu",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Great! Send Data",
+          "replies": [
+            "Back  to Menu"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Sentinellium aims to bridge the gap between the population who have access and have no access to internet to a public health monitoring system. This implies a more accurate data to monitor public health! It is an \u0027Early Warning System\u0027 for developing epidemics that will aid health units!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "sentinellium-inquiry"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

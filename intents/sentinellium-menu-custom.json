@@ -1,0 +1,54 @@
+{
+  "id": "a515cc21-001a-4110-8509-1b1c8a38f170",
+  "parentId": "b2720a4a-82e2-40c4-a8a2-b6fc2c14dc8e",
+  "rootParentId": "b2720a4a-82e2-40c4-a8a2-b6fc2c14dc8e",
+  "name": "sentinellium-menu-custom",
+  "auto": true,
+  "contexts": [
+    "sentinellium-menu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sentinellium-menu.sentinellium-menu-custom",
+      "affectedContexts": [
+        {
+          "name": "sentinellium-menu",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "",
+          "replies": [
+            "Back To Menu"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Sentinellium aims to bridge the gap between the population who have access and have no access to internet to a public health monitoring system. This implies a more accurate data to monitor public health! It is an \u0027Early Warning System\u0027 for developing epidemics that will aid health units!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
